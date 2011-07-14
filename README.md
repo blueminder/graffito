@@ -1,49 +1,17 @@
-# Deprecated
+# graffito
 
-This project has been [giter8ed](http://github.com/scalatra/scalatra-sbt.g8). We recommend that version instead.
+Anonymous tagging via geolocation.
 
-# Scalatra SBT prototype 
+## About
 
-1. Clone this repository:
+**graffito** is a mobile webapp that allows you to leave messages in any physical location for other users to find later.
 
-        git clone git://github.com/scalatra/scalatra-sbt-prototype.git my-app
+This webapp was largely created as an excuse to experiment with Scalatra, MongoDB, and iUI to make mobile web applications.
 
-2. Change directory into your clone:
+## TODO
 
-        cd my-app
+- Limit displayed tags to match distance radius around user
+- Create map link for each tag coordinate
 
-3. Launch [SBT](http://code.google.com/p/simple-build-tool).
-
-        ./sbt
-
-4. At SBT prompt, fetch the dependencies.  Do this the first time and also whenever you change the project definition.
-
-        update
-
-5. Run Jetty
-
-        jetty
-
-6. Go to http://localhost:8080/.
-
-7. Learn more at http://www.scalatra.org/.
-
-8. Happy hacking!
-
-## Eclipse support
-
-If you want to import the project into Eclipse, do the following:
-
-1. Generate a Maven pom from the SBT project:
-
-        ./sbt make-pom
-
-2. Copy the generated pom-file into place:
-
-        cp target/scala_2.8.0/myproject_2.8.0-0.1.0-SNAPSHOT.pom pom.xml        
-
-3. Generate eclipse metadata:
-
-        mvn eclipse:eclipse
-
-4. Import the project into Eclipse as an Existing Java Project.
+Copyright &copy; 2008-2011 Enrique Santos<br />
+This program is released under the terms of the GNU General Public License v3.0
