@@ -18,4 +18,6 @@ class MyProject(info: ProjectInfo) extends DefaultWebProject(info) {
   val sonatypeNexusSnapshots = "Sonatype Nexus Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots"
   // For Scalate
   val fuseSourceSnapshots = "FuseSource Snapshot Repository" at "http://repo.fusesource.com/nexus/content/repositories/snapshots"
+
+  val casbah = "com.mongodb.casbah" %% "casbah" % "2.0.1"
 }
